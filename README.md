@@ -25,7 +25,7 @@ brain-even
 
 Пример:
 
-[![brain-even](https://asciinema.org/a/VJTAxlr3WJwKYNXXVp8UXhxhZ.png)](https://asciinema.org/a/VJTAxlr3WJwKYNXXVp8UXhxhZ)
+[![asciicast](https://asciinema.org/a/VJTAxlr3WJwKYNXXVp8UXhxhZ.svg)](https://asciinema.org/a/VJTAxlr3WJwKYNXXVp8UXhxhZ)
 
 
 ### 2. Игра: "Калькулятор"
@@ -40,7 +40,7 @@ brain-calc
 
 Пример:
 
-[![brain-calc](https://asciinema.org/a/oLAoaACYExzuVazYiFf6G7XUj.png)](https://asciinema.org/a/oLAoaACYExzuVazYiFf6G7XUj)
+[![asciicast](https://asciinema.org/a/oLAoaACYExzuVazYiFf6G7XUj.svg)](https://asciinema.org/a/oLAoaACYExzuVazYiFf6G7XUj)
 
 
 ### 3. Игра "НОД"
@@ -57,7 +57,7 @@ brain-gcd
 
 Пример:
 
-[![brain-gcd](https://asciinema.org/a/Abv7JNAtSapE8eNGkgMlTNJrN.png)](https://asciinema.org/a/Abv7JNAtSapE8eNGkgMlTNJrN)
+[![asciicast](https://asciinema.org/a/Abv7JNAtSapE8eNGkgMlTNJrN.svg)](https://asciinema.org/a/Abv7JNAtSapE8eNGkgMlTNJrN)
 
 
 ### 4. Игра "Арифметическая прогрессия"
@@ -74,7 +74,7 @@ brain-progression
 
 Пример:
 
-[![brain-progression](https://asciinema.org/a/tkwx1a6y8xkuFh93MZou3d7jz.png)](https://asciinema.org/a/tkwx1a6y8xkuFh93MZou3d7jz)
+[![asciicast](https://asciinema.org/a/tkwx1a6y8xkuFh93MZou3d7jz.svg)](https://asciinema.org/a/tkwx1a6y8xkuFh93MZou3d7jz)
 
 
 ### 5. Игра "Простое ли число?"
@@ -91,4 +91,4 @@ brain-prime
 
 Пример:
 
-[![brain-prime](https://asciinema.org/a/uBrkAREQaK5VkbZWsakSxy8Vz.png)](https://asciinema.org/a/uBrkAREQaK5VkbZWsakSxy8Vz)
+[![asciicast](https://asciinema.org/a/uBrkAREQaK5VkbZWsakSxy8Vz.svg)](https://asciinema.org/a/uBrkAREQaK5VkbZWsakSxy8Vz)
