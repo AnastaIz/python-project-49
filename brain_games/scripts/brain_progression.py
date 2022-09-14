@@ -1,24 +1,9 @@
-import random
-from brain_games.scripts.game_engine import engine
-
-
-game_question = 'What number is missing in the progression?'
-
-
-def progression():
-    initial_term = random.randint(1, 20)
-    step = random.randint(2, 10)
-
-    pr = [str(initial_term + (step * i)) for i in range(10)]
-    result = pr[random.randint(0, 9)]
-
-    pr = ' '.join(pr)
-
-    return pr.replace(result, '..'), result
+from brain_games.game_engine import engine
+from brain_games.games.game_progression import progression, GAME_QUESTION
 
 
 def main():
-    engine(progression, game_question)
+    engine(progression, GAME_QUESTION)
 
 
 if __name__ == '__main__':
