@@ -1,28 +1,9 @@
-import random
-import operator
-from brain_games.scripts.game_engine import engine
-
-
-game_question = "What is the result of the expression?"
-
-
-def calc():
-    number1 = random.randint(1, 20)
-    number2 = random.randint(1, 20)
-    oper = random.choice('+-*')
-
-    if oper == '+':
-        result = operator.add(number1, number2)
-    elif oper == '-':
-        result = operator.sub(number1, number2)
-    else:
-        result = operator.mul(number1, number2)
-
-    return f'{number1} {oper} {number2}', str(result)
+from brain_games.game_engine import engine
+from brain_games.games.game_calc import calc, GAME_QUESTION
 
 
 def main():
-    engine(calc, game_question)
+    engine(calc, GAME_QUESTION)
 
 
 if __name__ == '__main__':
