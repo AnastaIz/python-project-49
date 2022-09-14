@@ -1,17 +1,9 @@
-import random
-from brain_games.scripts.game_engine import engine
-
-
-game_question = 'Answer "yes" if the number is even, otherwise answer "no".'
-
-
-def is_even():
-    number = random.randint(1, 100)
-    return number, number % 2 == 0 and 'yes' or 'no'
+from brain_games.game_engine import engine
+from brain_games.games.game_even import is_even, GAME_QUESTION
 
 
 def main():
-    engine(is_even, game_question)
+    engine(is_even, GAME_QUESTION)
 
 
 if __name__ == '__main__':
