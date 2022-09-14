@@ -1,21 +1,9 @@
-import math
-import random
-from brain_games.scripts.game_engine import engine
-
-
-game_question = "Find the greatest common divisor of given numbers."
-
-
-def gcd_game():
-    number1 = random.randint(1, 100)
-    number2 = random.randint(1, 100)
-    result = math.gcd(number1, number2)
-
-    return f"{number1} {number2}", str(result)
+from brain_games.game_engine import engine
+from brain_games.games.game_gcd import gcd_game, GAME_QUESTION
 
 
 def main():
-    engine(gcd_game, game_question)
+    engine(gcd_game, GAME_QUESTION)
 
 
 if __name__ == '__main__':
