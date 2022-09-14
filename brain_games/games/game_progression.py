@@ -13,4 +13,4 @@ def progression():
 
     pr = ' '.join(pr)
 
-    return pr.replace(result, '..'), result
+    return pr.replace(result, '..', 1), result
