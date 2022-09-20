@@ -4,7 +4,7 @@ import random
 GAME_QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def is_prime():
+def generate_round():
     number = random.randint(1, 20)
     counter = 0
     for i in range(2, number // 2 + 1):

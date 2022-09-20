@@ -4,7 +4,7 @@ import random
 GAME_QUESTION = "What is the result of the expression?"
 
 
-def calc():
+def generate_round():
     number1 = random.randint(1, 20)
     number2 = random.randint(1, 20)
     oper = random.choice('+-*')
