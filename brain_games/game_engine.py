@@ -9,10 +9,10 @@ def engine(game):
     greeting()
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(module.GAME_QUESTION)
+    print(game.GAME_QUESTION)
     counter = 0
     while counter < NUMBER_OF_ROUNDS:
-        (question, correct_answer) = module.generate_round()
+        (question, correct_answer) = game.generate_round()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:
