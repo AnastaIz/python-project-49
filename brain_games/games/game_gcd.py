@@ -10,7 +10,7 @@ def generate_round():
     
     m = min(number1, number2)
 
-    for i in range(m, 0, -1):
+    for i in range(1, m + 1):
         if number1 % i == 0 and number2 % i == 0:
             result = i
 
